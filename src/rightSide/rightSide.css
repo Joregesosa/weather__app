@@ -1,0 +1,21 @@
+.rightSide {
+    width: 70%;
+    height: fit-content;
+    min-height: 100vh;
+    min-width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #100E1D;
+    margin: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .rightSide {
+
+        width: 100%;
+
+    }
+}

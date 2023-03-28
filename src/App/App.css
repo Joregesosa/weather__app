@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+} */
+#roor{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

@@ -1,0 +1,66 @@
+.nextDaysWeather__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 0 1.5% 10px 1.5%;
+    width: 15%;
+    min-width: 98px;
+    max-width: 120px;
+    height: 160px;
+    
+    
+    background: #1E213A;
+    list-style: none;
+    
+}
+
+.nextDaysWeather__date {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   
+    line-height: 19px;
+    color: #E7E7EB;
+}
+
+.nextDaysWeather__icon {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+  
+    width: 56.44px;
+    height: 62px
+}
+
+.nextDaysWeather__icon img{
+  
+    width: 56.44px;
+    height: 62px
+}
+
+.nextDaysWeather__temp_container {
+    width: 80%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nextDaysWeather__temp_a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E7E7EB;
+}
+
+.nextDaysWeather__temp_b {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #A09FB1;
+}
