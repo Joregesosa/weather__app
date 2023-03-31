@@ -1,0 +1,26 @@
+.todayWeather__section {
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #1E213A;
+    min-width: 280px;
+
+}
+
+@media screen and (max-width: 860px) {
+    .todayWeather__section {
+
+        width: 100%;
+
+    }
+
+    .weather__icon_container::before {
+
+        background-size: 160% 100%;
+
+    }
+}

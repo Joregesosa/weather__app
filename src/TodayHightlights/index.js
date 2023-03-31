@@ -26,7 +26,9 @@ function TodayHightlights(props) {
 
                 <div className="currentWeather__windStatus_direction">
 
-                    <span></span>
+                    <span className="material-symbols-outlined">
+                        navigation
+                    </span>
 
                     {props.wind_dir}
 
@@ -48,7 +50,7 @@ function TodayHightlights(props) {
                 <div className="humidity__number_porcentage">
                     <p>0</p>
                     <p>50</p>
-                    <p>10</p>
+                    <p>100</p>
                 </div>
 
                 <div className="humidity__bar">

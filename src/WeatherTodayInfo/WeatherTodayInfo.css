@@ -1,0 +1,112 @@
+
+.currentWeather__info_container {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10px;    
+}
+
+/* icons <------------------------------------*/
+ .weather__icon_container {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 45%;
+}
+
+.currentWeather_icon{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    
+}
+
+.currentWeather_icon img{
+    width: 100%;
+}
+
+.weather__icon_container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+
+
+    background-image: url('/public/icons/others/Cloud-background.png');
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    background-position-x: -110px;
+    opacity: 0.05;
+}
+
+/* ------------------------------------> icons */
+/* weather__info <------------------------------------*/
+.weather__temp_container {
+    display: inherit;
+    align-items: flex-end;
+}
+
+.weather__temp {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 124px;
+
+    color: #E7E7EB;
+
+    margin: 0;
+}
+
+.weather__temp_container h3 {
+    margin: 0 0 25px 0;
+    font-size: 50px;
+    font-weight: 500;
+    color: #A09FB1;
+}
+
+
+.weather__condition {
+    padding: 25px 0 15px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #A09FB1;
+    text-align: center;
+}
+
+.weather__date {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #88869D
+}
+.material-symbols-outlined{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.weather__location {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #88869D;
+}   
+
+
+/* ------------------------------------> weather__info */

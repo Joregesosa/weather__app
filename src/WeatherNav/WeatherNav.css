@@ -1,0 +1,87 @@
+.Weather__nav {
+    width: 100%;
+    height: 12vh;
+    max-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.weather__nav_buttonClose {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+
+    background: none;
+    border: none;
+    color: #E7E7EB;
+
+    cursor: pointer;
+}
+
+.weather__nav_buttonClose:hover {
+    color: #3C47E9;
+}
+
+.weather__nav_inputConatiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55%;
+    max-width: 268px;
+    height: 35px;
+
+    padding-left: 5px;
+
+    background-color: transparent;
+    border: 1px solid #E7E7EB;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #616475;
+}
+
+.weather__nav_inputConatiner input {
+    outline: none;
+    border: none;
+    width: 233px;
+    height: 33px;
+
+    padding: 0 0 0 5px;
+
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    color: #616475;
+}
+
+.weather__nav_inputConatiner input::placeholder {
+    color: #616475;
+}
+
+
+.weather__nav_buttonSearch {
+    width: 86px;
+    height: 35px;
+
+    background: #3C47E9;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #E7E7EB;
+
+}
+
+.weather__nav_buttonSearch:hover {
+
+    color: #def341;
+}

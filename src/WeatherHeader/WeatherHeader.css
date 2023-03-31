@@ -1,0 +1,46 @@
+/* header <------------------------------------*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 10vh;
+}
+
+.weather__search_button {
+    width: 171px;
+    height: 35px;
+
+    background: #6E707A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    text-align: center;
+    cursor: pointer;
+    color: #E7E7EB;
+}
+
+header .icon_ubicar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    background: #ffffff33;
+    color: #E7E7EB;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    font-size: 22px;
+
+
+    cursor: pointer;
+}
+
+header .icon_ubicar:hover {
+    color: #cacaca;
+}
+
+/* ------------------------------------> header */

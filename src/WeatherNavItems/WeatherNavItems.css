@@ -1,5 +1,5 @@
-.locationCities_list {
-    width: 70%;
+.wheather__nav_item {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,12 +8,13 @@
 
     box-sizing: border-box;
 
-    width: 367px;
+    width: 70%;
+    max-width: 367px;
     height: 54px;
     margin-top: 10px;
     padding-left: 10px;
 
-    
+
 
     font-style: normal;
     font-weight: 500;
@@ -24,19 +25,15 @@
     color: #E7E7EB;
 }
 
-.locationCities_list:hover{
+.wheather__nav_item:hover {
     border: 1px solid #616475;
 }
 
-.locationCities_list:hover::after{
+.wheather__nav_item:hover::after {
     content: '>';
     color: #616475;
     position: relative;
     right: 18px;
     font-size: 24px;
     font-family: cursive;
-}
-
-.material-symbols-outlined{
-    color: #616475;
 }

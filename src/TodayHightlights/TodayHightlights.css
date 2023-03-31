@@ -121,14 +121,20 @@
 
 .currentWeather__windStatus_direction span {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     width: 29.49px;
     height: 29.49px;
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
 
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.3);
     transform: rotate(-150deg);
+
+    color: #E7E7EB;;
 
 }
 

@@ -1,0 +1,12 @@
+.weatherNav_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #1E213A;
+    min-width: 280px;
+    z-index: 2;
+}

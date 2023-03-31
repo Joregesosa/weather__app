@@ -3,7 +3,7 @@ import './WeatherForecastDays.css';
 
 function WeatherForecastDays(props) {
     return (
-
+        
         <li className="nextDaysWeather__items">
 
             <h3 className="nextDaysWeather__date">{props.date}</h3>
