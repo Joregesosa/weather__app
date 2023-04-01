@@ -94,6 +94,12 @@ function TodayHightlights(props) {
 
             </div>
 
+            <footer>
+                <h4>Created by</h4>
+                <h2>JoregeSosa</h2>
+                <h3>- devChallenges.io</h3>
+            </footer>
+
         </div>
     )
 }

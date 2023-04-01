@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { useWeatherApp } from './useWeatherApi';
 
 import { LeftSide } from '../LeftSide';
 import { WeatherHeader } from '../WeatherHeader';
@@ -10,7 +11,6 @@ import { WeatherNav } from '../WeatherNav';
 import { WeatherNavList } from '../WeatherNavList';
 import { WeatherNavItems } from '../WeatherNavItems';
 
-import { useWeatherApp } from './useWeatherApi'
 import { RightSide } from '../rightSide';
 import { TemperatureUnitsButton } from '../TemperatureUnitsButton';
 import { WeatherForecast } from '../WeatherForecast'
