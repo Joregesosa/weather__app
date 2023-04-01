@@ -1,0 +1,125 @@
+{
+    "short_name": "Weather__app",
+    "name": "Weather__app",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "128x128",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "icons/weather/partly-cloudy-day.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/weather/clear-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/cloudy.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/fog.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/hail.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/partly-cloudy-day.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/partly-cloudy-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/rain-snow-showers-day.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/rain-snow-showers-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/rain-snow.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/rain.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/showers-day.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/showers-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/sleet.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/snow-showers-day.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/snow-showers-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/snow.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/thunder-rain.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/thunder-showers-day.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/thunder-showers-night.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/thunder.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icons/weather/wind.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
