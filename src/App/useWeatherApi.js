@@ -126,7 +126,7 @@ function useWeatherApp() {
                 newweatherForecast.push({
                     date: dateFormat(researchResults.days[i].datetime),
                     condition: researchResults.days[i].conditions,
-                    icon: 'weather__app/icons/weather/' + researchResults.days[i].icon + '.png',
+                    icon: 'icons/weather/' + researchResults.days[i].icon + '.png',
                     mintemp_c: Math.round(changeTempUnit(researchResults.days[i].tempmin)) + '°C',
                     maxtemp_c: Math.round(changeTempUnit(researchResults.days[i].tempmax)) + '°C',
                     mintemp_f: Math.round(researchResults.days[i].tempmin) + '°f',
@@ -149,7 +149,7 @@ function useWeatherApp() {
                 temp_f: Math.round(researchResults.currentConditions.temp),
                 temp_c: Math.round(changeTempUnit(researchResults.currentConditions.temp)),
                 condition: researchResults.currentConditions.conditions,
-                icon: 'weather__app/icons/weather/' + researchResults.currentConditions.icon + '.png',
+                icon: 'icons/weather/' + researchResults.currentConditions.icon + '.png',
                 pressure_mb: researchResults.currentConditions.pressure,
                 vis_miles: researchResults.currentConditions.visibility,
                 humidity: researchResults.currentConditions.humidity,
