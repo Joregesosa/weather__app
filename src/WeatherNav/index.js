@@ -4,7 +4,7 @@ import './WeatherNav.css';
 function WeatherNav(props) {
     const [searchLocationVal, setSearchLocationVal] = React.useState('');
 
-    const url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=YgPYWjsPMRNWaSXDVPH6KqifZVdRLVH9&q=${searchLocationVal}`
+    const url = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=YgPYWjsPMRNWaSXDVPH6KqifZVdRLVH9&q=${searchLocationVal}`
 
     const onChangeSearchLocation = (event) => {
 

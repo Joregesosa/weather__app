@@ -182,7 +182,7 @@ function useWeatherApp() {
                 return position.coords.latitude + ',' + position.coords.longitude;
             })
                 .then((geoCordinates) => {
-                    const locationUrl = 'http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=YgPYWjsPMRNWaSXDVPH6KqifZVdRLVH9&q=' + geoCordinates;
+                    const locationUrl = 'https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=YgPYWjsPMRNWaSXDVPH6KqifZVdRLVH9&q=' + geoCordinates;
 
                     return locationUrl;
                 })

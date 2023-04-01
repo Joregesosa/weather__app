@@ -10,3 +10,9 @@
     min-width: 280px;
     z-index: 2;
 }
+
+@media screen and (max-width: 860px) {
+    .weatherNav_container {
+        width: 100%;
+    }
+}
